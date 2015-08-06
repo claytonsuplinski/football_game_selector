@@ -1,0 +1,258 @@
+[
+    {
+        "code": "ARI",
+        "full_name": "Arizona Cardinals",
+        "short_name": "Arizona",
+        "conference": "NFC",
+        "division": "West",
+		"color": "#B0063A"
+    },
+    {
+        "code": "ATL",
+        "full_name": "Atlanta Falcons",
+        "short_name": "Atlanta",
+        "conference": "NFC",
+        "division": "South",
+		"color": "#000000"
+    },
+    {
+        "code": "BAL",
+        "full_name": "Baltimore Ravens",
+        "short_name": "Baltimore",
+        "conference": "AFC",
+        "division": "North",
+		"color": "#2C2E8C"
+    },
+    {
+        "code": "BUF",
+        "full_name": "Buffalo Bills",
+        "short_name": "Buffalo",
+        "conference": "AFC",
+        "division": "East",
+		"color": "#005596"
+    },
+    {
+        "code": "CAR",
+        "full_name": "Carolina Panthers",
+        "short_name": "Carolina",
+        "conference": "NFC",
+        "division": "South",
+		"color": "#0085CA"
+    },
+    {
+        "code": "CHI",
+        "full_name": "Chicago Bears",
+        "short_name": "Chicago",
+        "conference": "NFC",
+        "division": "North",
+		"color": "#00123F"
+    },
+    {
+        "code": "CIN",
+        "full_name": "Cincinnati Bengals",
+        "short_name": "Cincinnati",
+        "conference": "AFC",
+        "division": "North",
+		"color": "#F04E23"
+    },
+    {
+        "code": "CLE",
+        "full_name": "Cleveland Browns",
+        "short_name": "Cleveland",
+        "conference": "AFC",
+        "division": "North",
+		"color": "#F26522"
+    },
+    {
+        "code": "DAL",
+        "full_name": "Dallas Cowboys",
+        "short_name": "Dallas",
+        "conference": "NFC",
+        "division": "East",
+		"color": "#00295B"
+    },
+    {
+        "code": "DEN",
+        "full_name": "Denver Broncos",
+        "short_name": "Denver",
+        "conference": "AFC",
+        "division": "West",
+		"color": "#001F52"
+    },
+    {
+        "code": "DET",
+        "full_name": "Detroit Lions",
+        "short_name": "Detroit",
+        "conference": "NFC",
+        "division": "North",
+		"color": "#006DB0"
+    },
+    {
+        "code": "GB",
+        "full_name": "Green Bay Packers",
+        "short_name": "Green Bay",
+        "conference": "NFC",
+        "division": "North",
+		"color": "#2A433A"
+    },
+    {
+        "code": "HOU",
+        "full_name": "Houston Texans",
+        "short_name": "Houston",
+        "conference": "AFC",
+        "division": "South",
+		"color": "#00123F"
+    },
+    {
+        "code": "IND",
+        "full_name": "Indianapolis Colts",
+        "short_name": "Indianapolis",
+        "conference": "AFC",
+        "division": "South",
+		"color": "#00427E"
+    },
+    {
+        "code": "JAX",
+        "full_name": "Jacksonville Jaguars",
+        "short_name": "Jacksonville",
+        "conference": "AFC",
+        "division": "South",
+		"color": "#006577"
+    },
+    {
+        "code": "KC",
+        "full_name": "Kansas City Chiefs",
+        "short_name": "Kansas City",
+        "conference": "AFC",
+        "division": "West",
+		"color": "#C9243F"
+    },
+    {
+        "code": "MIA",
+        "full_name": "Miami Dolphins",
+        "short_name": "Miami",
+        "conference": "AFC",
+        "division": "East",
+		"color": "#008D96"
+    },
+    {
+        "code": "MIN",
+        "full_name": "Minnesota Vikings",
+        "short_name": "Minnesota",
+        "conference": "NFC",
+        "division": "North",
+		"color": "#4E2683"
+    },
+    {
+        "code": "NYG",
+        "full_name": "New York Giants",
+        "short_name": "New York Giants",
+        "conference": "NFC",
+        "division": "East",
+		"color": "#CA233D"
+    },
+    {
+        "code": "NYJ",
+        "full_name": "New York Jets",
+        "short_name": "New York Jets",
+        "conference": "AFC",
+        "division": "East",
+		"color": "#1C5631"
+    },
+    {
+        "code": "NE",
+        "full_name": "New England Patriots",
+        "short_name": "New England",
+        "conference": "AFC",
+        "division": "East",
+		"color": "#00295B"
+    },
+    {
+        "code": "NO",
+        "full_name": "New Orleans Saints",
+        "short_name": "New Orleans",
+        "conference": "NFC",
+        "division": "South",
+		"color": "#C8AA76"
+    },
+    {
+        "code": "OAK",
+        "full_name": "Oakland Raiders",
+        "short_name": "Oakland",
+        "conference": "AFC",
+        "division": "West",
+		"color": "#000000"
+    },
+    {
+        "code": "PHI",
+        "full_name": "Philadelphia Eagles",
+        "short_name": "Philadelphia",
+        "conference": "NFC",
+        "division": "East",
+		"color": "#004C55"
+    },
+    {
+        "code": "PIT",
+        "full_name": "Pittsburgh Steelers",
+        "short_name": "Pittsburgh",
+        "conference": "AFC",
+        "division": "North",
+		"color": "#000000"
+    },
+    {
+        "code": "SD",
+        "full_name": "San Diego Chargers",
+        "short_name": "San Diego",
+        "conference": "AFC",
+        "division": "West",
+		"color": "#00295B"
+    },
+    {
+        "code": "SF",
+        "full_name": "San Francisco 49ers",
+        "short_name": "San Francisco",
+        "conference": "NFC",
+        "division": "West",
+		"color": "#C8AA76"
+    },
+    {
+        "code": "SEA",
+        "full_name": "Seattle Seahawks",
+        "short_name": "Seattle",
+        "conference": "NFC",
+        "division": "West",
+		"color": "#002A5C"
+    },
+    {
+        "code": "STL",
+        "full_name": "St. Louis Rams",
+        "short_name": "St. Louis",
+        "conference": "NFC",
+        "division": "West",
+		"color": "#00295B"
+    },
+    {
+        "code": "TB",
+        "full_name": "Tampa Bay Buccaneers",
+        "short_name": "Tampa Bay",
+        "conference": "NFC",
+        "division": "South",
+		"color": "#DA2128"
+    },
+    {
+        "code": "TEN",
+        "full_name": "Tennessee Titans",
+        "short_name": "Tennessee",
+        "conference": "AFC",
+        "division": "South",
+		"color": "#4295D1"
+    },
+    {
+        "code": "WAS",
+        "full_name": "Washington Redskins",
+        "short_name": "Washington",
+        "conference": "NFC",
+        "division": "East",
+		"color": "#691B11"
+    }
+]
