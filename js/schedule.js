@@ -33,6 +33,7 @@ function load_team_schedule(code){
 		});
 		if(game.length > 0){
 			game = game[0];
+			var game_index = week.indexOf(game);
 			var away_team = teams.filter(function (team) { 
 				return team.full_name == game.away_team;
 			})[0];
@@ -46,9 +47,9 @@ function load_team_schedule(code){
 			if(game.away_result == "W"){
 				win_color = away_team.color;
 			}
-			tmp_html += '<div class="col-xs-5 col-lg-5 team-schedule-week" style="background-color:'+away_team.color+';background-image:url(\'./teamIcons/'+away_team.code+'.png\');"><div class="hidden-xs">'+game.away_team+'</div></div>';
+			tmp_html += '<div class="col-xs-5 col-lg-5 team-schedule-week" onclick="select_game('+game_index+', 0, '+week_number+');load_team_schedule(\''+code+'\');" style="background-color:'+away_team.color+';background-image:url(\'./teamIcons/'+away_team.code+'.png\');"><div class="hidden-xs">'+game.away_team+'</div></div>';
 			tmp_html += '<div class="col-xs-2 col-lg-2 team-schedule-vs" style="background-color:'+win_color+';"><span class="hidden-xs">Week </span>'+(week_number+1)+'</div>';
-			tmp_html += '<div class="col-xs-5 col-lg-5 team-schedule-week" style="background-color:'+home_team.color+';background-image:url(\'./teamIcons/'+home_team.code+'.png\');"><div class="hidden-xs">'+game.home_team+'</div></div>';
+			tmp_html += '<div class="col-xs-5 col-lg-5 team-schedule-week" onclick="select_game('+game_index+', 1, '+week_number+');load_team_schedule(\''+code+'\');" style="background-color:'+home_team.color+';background-image:url(\'./teamIcons/'+home_team.code+'.png\');"><div class="hidden-xs">'+game.home_team+'</div></div>';
 		}
 		else{//Bye Week
 			tmp_html += '<div class="col-xs-12 team-schedule-vs">BYE</div>';

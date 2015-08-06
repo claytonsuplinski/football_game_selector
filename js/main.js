@@ -1,5 +1,5 @@
-function select_game(index, home){
-	var game = schedule_data[curr_week][index];
+function select_game(index, home, week){
+	var game = schedule_data[week][index];
 	
 	var away_team = teams.filter(function (team) { 
 		return team.full_name == game.away_team;

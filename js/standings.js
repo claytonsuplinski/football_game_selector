@@ -29,6 +29,14 @@ function load_standings(){
 				return 0;
 			});
 			
+			division_teams.sort(function (a, b){
+				var a_wp = (a.wins + a.losses > 0 ? a.wins / (a.wins + a.losses) : 0);
+				var b_wp = (b.wins + b.losses > 0 ? b.wins / (b.wins + b.losses) : 0);
+				if (a_wp > b_wp){return -1;}
+				if (a_wp < b_wp){return 1;}
+				return 0;
+			});	
+			
 			tmp_html += "<div class='col-md-1 col-xs-2 standings-division'>";
 				tmp_html += division[0];
 			tmp_html += "</div>";

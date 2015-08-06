@@ -158,14 +158,14 @@ function load_week(){
 						tmp_html += "<br>";
 						tmp_html += game.away_result;
 					tmp_html += '</div>';
-					tmp_html += '<div class="col-xs-8 select-team select-away-team" onclick="select_game('+game_index+', 0);" style="background-color:'+win_color+';background-image:url(\'./teamIcons/'+away_team.code+'.png\');">';
+					tmp_html += '<div class="col-xs-8 select-team select-away-team" onclick="select_game('+game_index+', 0, '+curr_week+');" style="background-color:'+win_color+';background-image:url(\'./teamIcons/'+away_team.code+'.png\');">';
 					tmp_html += '</div>';
 					tmp_html += '<div class="col-xs-4 team-code" style="background-color:'+home_color+';">';
 						tmp_html += home_team.code + " ("+home_team.wins+"-"+home_team.losses+")";
 						tmp_html += "<br>";
 						tmp_html += game.home_result;
 					tmp_html += '</div>';
-					tmp_html += '<div class="col-xs-8 select-team select-home-team" onclick="select_game('+game_index+', 1);" style="background-color:'+home_color+';background-image:url(\'./teamIcons/'+home_team.code+'.png\');">';
+					tmp_html += '<div class="col-xs-8 select-team select-home-team" onclick="select_game('+game_index+', 1, '+curr_week+');" style="background-color:'+home_color+';background-image:url(\'./teamIcons/'+home_team.code+'.png\');">';
 					tmp_html += '</div>';
 				tmp_html += '</div>';
 			tmp_html += '</div>';

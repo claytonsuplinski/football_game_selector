@@ -219,6 +219,7 @@ td.active{
 	background-position:-40px 50%;
 	margin-bottom:10px;
 	height:40px;
+	cursor:pointer;
 }
 
 .division-container{
