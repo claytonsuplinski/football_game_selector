@@ -3,7 +3,7 @@ function load_standings(){
 	var conferences = ["AFC", "NFC"];
 	var divisions = ["North", "South", "East", "West"];
 	conferences.forEach(function (conference){
-		tmp_html += "<div class='col-xs-12 standings-conference' style='background:"+(conference == "AFC" ? "#DB2128" : "#033A75" )+"'>"+conference+"</div>";
+		tmp_html += "<div class='col-xs-12 standings-conference' style='background:"+(conference == "AFC" ? "#DB2128" : "#033A75" )+"'>"+(conference == "AFC" ? "Red" : "Blue")+"</div>";
 		divisions.forEach(function (division){
 			var division_teams = teams.filter(function (team) { 
 				return team.conference == conference && team.division == division;
