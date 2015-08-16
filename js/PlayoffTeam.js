@@ -38,6 +38,6 @@ PlayoffTeam.prototype.get_champion_html = function(){
 	}
 	return '<div class="col-xs-12 col-lg-12 team-schedule-week" style="background-color:'+
 			this.team.color+';background-image:url(\'./teamIcons/'+
-			this.team.code+'.png\'); text-align:center;"><div class="hidden-xs">'+
-			this.team.code+'</div></div>';
+			this.team.code+'.png\'); text-align:center;">'+
+			this.team.code+'</div>';
 };
